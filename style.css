@@ -1,0 +1,21 @@
+body{
+    background-color: #ECA240;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.logo_aicap{
+	
+    width: auto;
+    height: 140px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    
+
+}
+.textttt{
+    display : 'block';
+    margin : 'auto'
+  
+}
