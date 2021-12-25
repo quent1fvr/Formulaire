@@ -20,12 +20,11 @@ if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['apellido']) 
     require_once "PHPMailer/Exception.php";
 
     $mail = new PHPMailer();
-   // $mail->Username = "grupoaicap07@gmail.com";
     //smtp settings
     $mail->isSMTP();
-    $mail->Host = "smtp.gmail.com";
+    $mail->Host = "";
     $mail->SMTPAuth = true;
-    $mail->Username = "grusdsqgqs0dsfq@gmail.com";
+    $mail->Username = "sdsqgqs0dsfq@gmail.com";
     $mail->Password = 'vflgsyqkfbmuhrgg';
     $mail->Port = 465;
     $mail->SMTPSecure = "ssl";
